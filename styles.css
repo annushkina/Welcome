@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(241, 227, 229);
+}
+
+.whole-content {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.wrapper {
+  width: 1268px;
+}
+
+.cover {
+  position: relative;
+  background-color: #f48678;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.logo-wrapper {
+  margin-bottom: 24px;
+}
+
+.cover-title {
+  position: absolute;
+  top: 68px;
+  left: 68px;
+  width: 346px;
+  font-family: 'Helvetica-bold';
+  font-size: 48px;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.cover-image {
+  height: 661px;
+}
+
+.cover-image img {
+  position: absolute;
+  right: 34px;
+  bottom: 0px;
+}
+
+.cover-content {
+  background-color: #fff;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 54px 0px;
+}
+
+@media only screen and (max-width: 576px) {
+  .cover-content {
+    background-color: transparent;
+  }
+}
+
+.input-content {
+  height: 48px;
+  border: 1px solid #2aa9b2;
+  border-radius: 12px;
+}
+
+.form-control:focus {
+  box-shadow: 1px 1px 10px #2aa9b2;
+  border-color: #2aa9b2;
+}
+
+.form-check-input {
+  border: 1px solid #f48678;
+  box-shadow: 1px 1px 5px #f48678;
+
+}
+
+.form-check-input:checked {
+  background-color: #f48678;
+  border: 1px solid #f48678;
+  box-shadow: 1px 1px 5px #f48678;
+}
+
+.form-check-input:focus {
+  border: 1px solid #f48678;
+  box-shadow: 1px 1px 5px #f48678;
+}
+
+.btn,
+.btn:focus,
+.btn:hover {
+  height: 48px;
+  border-radius: 12px;
+  background-color: #f48678;
+  border: 1px solid #f48678;
+  box-shadow: 1px 1px 5px #f48678;
+}
+
+.btn:active.btn:focus {
+  box-shadow: none;
+}
