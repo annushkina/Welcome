@@ -1,177 +1,136 @@
 <!DOCTYPE html>
 
 <head>
-  <title>
-    Biterium.AI
-  </title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" type="text/css" href="fonts.css" />
-  <link rel="stylesheet" type="text/css" href="styles.css" />
+	<title>
+		Biterium.AI
+	</title>
+	<link rel="stylesheet" type="text/css" href="fonts.css" />
+	<link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
-  <div class="whole-content">
-    <div class="wrapper">
-      <div class="logo-wrapper">
-        <div class="row">
-          <div class="col">
-            <span>
-              <svg data-name="BMP logo" xmlns="http://www.w3.org/2000/svg" width="108.792" height="34.296"
-                viewBox="0 0 108.792 34.296">
-                <defs>
-                  <clipPath id="rkpo64kf1a">
-                    <path data-name="Rectangle 309" style="fill:none" d="M0 0h108.792v34.296H0z" />
-                  </clipPath>
-                </defs>
-                <g data-name="Group 422" style="clip-path:url(#rkpo64kf1a)">
-                  <path data-name="Path 1277"
-                    d="M189.368 51.211a13.046 13.046 0 0 1 2.729.264 5.9 5.9 0 0 1 2.113.866 4.029 4.029 0 0 1 1.365 1.6 5.621 5.621 0 0 1 .484 2.465 4.591 4.591 0 0 1-.719 2.641 5.226 5.226 0 0 1-2.128 1.731 5.04 5.04 0 0 1 2.888 1.952 6.407 6.407 0 0 1 .337 6.1 5.347 5.347 0 0 1-1.658 1.893 7.339 7.339 0 0 1-2.377 1.086 10.711 10.711 0 0 1-2.744.352h-10.151v-20.95zm-.587 8.481a3.31 3.31 0 0 0 2.025-.587 2.217 2.217 0 0 0 .794-1.905 2.436 2.436 0 0 0-.264-1.2 1.955 1.955 0 0 0-.7-.734 2.971 2.971 0 0 0-1.012-.367 6.733 6.733 0 0 0-1.189-.1h-4.314v4.9zm.264 8.892a6.148 6.148 0 0 0 1.291-.132 3.17 3.17 0 0 0 1.086-.44 2.224 2.224 0 0 0 .748-.836 2.882 2.882 0 0 0 .279-1.35 2.711 2.711 0 0 0-.91-2.3 3.885 3.885 0 0 0-2.406-.69h-5.018v5.752z"
-                    transform="translate(-132.881 -37.909)" style="fill:#f48678" />
-                  <path data-name="Path 1278"
-                    d="M268.5 51.211a8.735 8.735 0 0 1 3.346.572 6.267 6.267 0 0 1 2.245 1.511 5.816 5.816 0 0 1 1.262 2.142 8 8 0 0 1 0 4.974 5.787 5.787 0 0 1-1.262 2.157 6.26 6.26 0 0 1-2.245 1.511 8.73 8.73 0 0 1-3.346.572h-4.842v3.68a3.834 3.834 0 0 1-3.834 3.834h-.773V51.211zm-1.262 9.861a9.628 9.628 0 0 0 1.526-.117 3.545 3.545 0 0 0 1.291-.455 2.476 2.476 0 0 0 .895-.954 4.027 4.027 0 0 0 0-3.228 2.479 2.479 0 0 0-.895-.954 3.559 3.559 0 0 0-1.291-.455 9.689 9.689 0 0 0-1.526-.117h-3.58v6.28z"
-                    transform="translate(-191.761 -37.909)" style="fill:#f48678" />
-                  <path data-name="Path 1279"
-                    d="M335.634 51.211a6.95 6.95 0 0 1 6.633 4.978l3.208 9.431h.059l2.683-9.325a7.33 7.33 0 0 1 6.978-5.085h1.144v20.955h-.89a3.424 3.424 0 0 1-3.424-3.424V57.315h-.059l-4.237 13.169a2.5 2.5 0 0 1-4.717.007l-4.233-13.029h-.058v11.256a3.447 3.447 0 0 1-3.447 3.447h-.868V51.211z"
-                    transform="translate(-247.546 -37.909)" style="fill:#f48678" />
-                  <path data-name="Path 1280"
-                    d="M34.344 23.5a9.092 9.092 0 0 0-9.119-9.063l-4.308.013v5.94a6.936 6.936 0 0 1-6.928 6.928 7.057 7.057 0 0 1-7.049-7.049 6.936 6.936 0 0 1 6.928-6.928h5.99l-.013-4.278A9.092 9.092 0 0 0 10.726 0L0 .033l.044 14.478h-.01l.027 8.916A10.9 10.9 0 0 0 11 34.3l23.382-.072z"
-                    transform="translate(.001)" style="fill:#f48678" />
-                  <path data-name="Path 1281"
-                    d="M35.07 64.471a4.886 4.886 0 0 0 4.88 4.88 4.765 4.765 0 0 0 4.759-4.759v-4.88h-4.88a4.765 4.765 0 0 0-4.759 4.759"
-                    transform="translate(-25.961 -44.202)" style="fill:#f48678" />
-                </g>
-              </svg>
-            </span>
-          </div>
+	<div class="header">
+		<div class="logo-wrapper">
+			<div class="logo">
+				<svg data-name="BMP logo" xmlns="http://www.w3.org/2000/svg" width="108.792" height="34.296"
+					viewBox="0 0 108.792 34.296">
+					<defs>
+						<clipPath id="rkpo64kf1a">
+							<path data-name="Rectangle 309" style="fill:none" d="M0 0h108.792v34.296H0z" />
+						</clipPath>
+					</defs>
+					<g data-name="Group 422" style="clip-path:url(#rkpo64kf1a)">
+						<path data-name="Path 1277"
+							d="M189.368 51.211a13.046 13.046 0 0 1 2.729.264 5.9 5.9 0 0 1 2.113.866 4.029 4.029 0 0 1 1.365 1.6 5.621 5.621 0 0 1 .484 2.465 4.591 4.591 0 0 1-.719 2.641 5.226 5.226 0 0 1-2.128 1.731 5.04 5.04 0 0 1 2.888 1.952 6.407 6.407 0 0 1 .337 6.1 5.347 5.347 0 0 1-1.658 1.893 7.339 7.339 0 0 1-2.377 1.086 10.711 10.711 0 0 1-2.744.352h-10.151v-20.95zm-.587 8.481a3.31 3.31 0 0 0 2.025-.587 2.217 2.217 0 0 0 .794-1.905 2.436 2.436 0 0 0-.264-1.2 1.955 1.955 0 0 0-.7-.734 2.971 2.971 0 0 0-1.012-.367 6.733 6.733 0 0 0-1.189-.1h-4.314v4.9zm.264 8.892a6.148 6.148 0 0 0 1.291-.132 3.17 3.17 0 0 0 1.086-.44 2.224 2.224 0 0 0 .748-.836 2.882 2.882 0 0 0 .279-1.35 2.711 2.711 0 0 0-.91-2.3 3.885 3.885 0 0 0-2.406-.69h-5.018v5.752z"
+							transform="translate(-132.881 -37.909)" style="fill:#f48678" />
+						<path data-name="Path 1278"
+							d="M268.5 51.211a8.735 8.735 0 0 1 3.346.572 6.267 6.267 0 0 1 2.245 1.511 5.816 5.816 0 0 1 1.262 2.142 8 8 0 0 1 0 4.974 5.787 5.787 0 0 1-1.262 2.157 6.26 6.26 0 0 1-2.245 1.511 8.73 8.73 0 0 1-3.346.572h-4.842v3.68a3.834 3.834 0 0 1-3.834 3.834h-.773V51.211zm-1.262 9.861a9.628 9.628 0 0 0 1.526-.117 3.545 3.545 0 0 0 1.291-.455 2.476 2.476 0 0 0 .895-.954 4.027 4.027 0 0 0 0-3.228 2.479 2.479 0 0 0-.895-.954 3.559 3.559 0 0 0-1.291-.455 9.689 9.689 0 0 0-1.526-.117h-3.58v6.28z"
+							transform="translate(-191.761 -37.909)" style="fill:#f48678" />
+						<path data-name="Path 1279"
+							d="M335.634 51.211a6.95 6.95 0 0 1 6.633 4.978l3.208 9.431h.059l2.683-9.325a7.33 7.33 0 0 1 6.978-5.085h1.144v20.955h-.89a3.424 3.424 0 0 1-3.424-3.424V57.315h-.059l-4.237 13.169a2.5 2.5 0 0 1-4.717.007l-4.233-13.029h-.058v11.256a3.447 3.447 0 0 1-3.447 3.447h-.868V51.211z"
+							transform="translate(-247.546 -37.909)" style="fill:#f48678" />
+						<path data-name="Path 1280"
+							d="M34.344 23.5a9.092 9.092 0 0 0-9.119-9.063l-4.308.013v5.94a6.936 6.936 0 0 1-6.928 6.928 7.057 7.057 0 0 1-7.049-7.049 6.936 6.936 0 0 1 6.928-6.928h5.99l-.013-4.278A9.092 9.092 0 0 0 10.726 0L0 .033l.044 14.478h-.01l.027 8.916A10.9 10.9 0 0 0 11 34.3l23.382-.072z"
+							transform="translate(.001)" style="fill:#f48678" />
+						<path data-name="Path 1281"
+							d="M35.07 64.471a4.886 4.886 0 0 0 4.88 4.88 4.765 4.765 0 0 0 4.759-4.759v-4.88h-4.88a4.765 4.765 0 0 0-4.759 4.759"
+							transform="translate(-25.961 -44.202)" style="fill:#f48678" />
+					</g>
+				</svg>
 
-          <div class="col">
-            <div class="row justify-content-end">
-              <div class="col-md-1 col-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="19" viewBox="0 0 26 19">
-                  <path data-name="Path 77" d="M1 6a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2z"
-                    style="fill:none;stroke:#14142b;stroke-linejoin:round;stroke-width:2px"
-                    transform="translate(0 -3)" />
-                  <path data-name="Path 78"
-                    d="M2.421 5.3A.75.75 0 0 1 2.928 4h20.144a.75.75 0 0 1 .507 1.3l-8.551 7.839a3 3 0 0 1-4.054 0z"
-                    style="fill:none;stroke:#14142b;stroke-linejoin:round;stroke-width:2px"
-                    transform="translate(0 -3)" />
-                </svg>
-              </div>
-              <div class="col-lg-3 col-md-4 d-none d-md-block">
-                Contact Us
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+			</div>
+			<div class="logo-title">
+				BITERIUM.AI
+			</div>
+		</div>
+		<div class="contact-content">
+			<div class="contact-img">
+				<svg xmlns="http://www.w3.org/2000/svg" width="26" height="19" viewBox="0 0 26 19">
+					<path data-name="Path 77" d="M1 6a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2z"
+						style="fill:none;stroke:#14142b;stroke-linejoin:round;stroke-width:2px" transform="translate(0 -3)" />
+					<path data-name="Path 78"
+						d="M2.421 5.3A.75.75 0 0 1 2.928 4h20.144a.75.75 0 0 1 .507 1.3l-8.551 7.839a3 3 0 0 1-4.054 0z"
+						style="fill:none;stroke:#14142b;stroke-linejoin:round;stroke-width:2px" transform="translate(0 -3)" />
+				</svg>
+			</div>
+			<div class="contact-info">
+				Contact Us
+			</div>
+		</div>
+	</div>
 
-      <div class="row justify-content-center">
-        <div class="col-md-6 cover d-none d-md-block">
-          <div class="cover-title">
-            Prevent Cardiovascular diseases
-          </div>
-          <div class="cover-image">
-            <img src="images/image.png" class="rounded float-start" />
-          </div>
-        </div>
+	<div class="card">
+		<div class="cover">
+			<div class="cover-title">
+				Prevent Cardiovascular diseases
+			</div>
+			<div class="cover-image">
+				<img src="images/image.png" />
+			</div>
+		</div>
+		<div class="content">
+			<h3 class="sign-up">
+				Sign Up
+			</h3>
 
+			<div class="input-wrapper">
+				<input type="email" class="input" placeholder="Email" />
+			</div>
 
-        <div class="row col-md-6 justify-content-center cover-content">
-          <div class="row col-md-10 gap-3">
-            <div class="col-xs-12">
-              <h3 class="sign-up">
-                Sign Up
-              </h3>
-            </div>
-            <div class="col-xs-12">
-              <div class="input-group">
-                <input type="email" class="form-control input-content" placeholder="Email">
-              </div>
-            </div>
+			<div class="input-wrapper">
+				<input type="password" class="input" placeholder="Password">
 
-            <div class="col-xs-12">
-              <div class="input-group">
-                <input type="password" class="form-control input-content" placeholder="Password">
+				<span class="hide-sign">
+					<svg xmlns="http://www.w3.org/2000/svg" width="23.359" height="19.971" viewBox="0 0 23.359 19.971">
+						<path data-name="Path 66" d="m5.68 3 16 16"
+							style="stroke-linecap:round;fill:none;stroke:#2aa9b2;stroke-width:2px" transform="translate(0 -1.586)" />
+						<path data-name="Path 67"
+							d="M14.055 4.79a1 1 0 0 1 1.271-.619 14.359 14.359 0 0 1 7.566 6.629 3.523 3.523 0 0 1 .34 2.7 1 1 0 0 1-1.927-.534 1.522 1.522 0 0 0-.147-1.165 12.37 12.37 0 0 0-6.483-5.736 1 1 0 0 1-.62-1.275zm-5.3.151a1 1 0 0 1-.55 1.3 12.6 12.6 0 0 0-6 5.554 1.522 1.522 0 0 0 0 1.516c2.222 3.871 5.691 6.242 9.478 6.242a10.135 10.135 0 0 0 7.232-3.253 1 1 0 0 1 1.426 1.4 12.13 12.13 0 0 1-8.661 3.856c-4.686 0-8.735-2.931-11.212-7.246a3.522 3.522 0 0 1 0-3.508 14.585 14.585 0 0 1 6.98-6.412 1 1 0 0 1 1.302.551z"
+							style="fill:#2aa9b2;fill-rule:evenodd" transform="translate(0 -1.586)" />
+						<path data-name="Path 68" d="M14.589 11.825a3 3 0 1 1-2.29-2.2"
+							style="fill:none;stroke:#2aa9b2;stroke-width:2px" transform="translate(0 -1.586)" />
+					</svg>
+				</span>
+			</div>
 
-                <span class="input-group-text">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="23.359" height="19.971" viewBox="0 0 23.359 19.971">
-                    <path data-name="Path 66" d="m5.68 3 16 16"
-                      style="stroke-linecap:round;fill:none;stroke:#2aa9b2;stroke-width:2px"
-                      transform="translate(0 -1.586)" />
-                    <path data-name="Path 67"
-                      d="M14.055 4.79a1 1 0 0 1 1.271-.619 14.359 14.359 0 0 1 7.566 6.629 3.523 3.523 0 0 1 .34 2.7 1 1 0 0 1-1.927-.534 1.522 1.522 0 0 0-.147-1.165 12.37 12.37 0 0 0-6.483-5.736 1 1 0 0 1-.62-1.275zm-5.3.151a1 1 0 0 1-.55 1.3 12.6 12.6 0 0 0-6 5.554 1.522 1.522 0 0 0 0 1.516c2.222 3.871 5.691 6.242 9.478 6.242a10.135 10.135 0 0 0 7.232-3.253 1 1 0 0 1 1.426 1.4 12.13 12.13 0 0 1-8.661 3.856c-4.686 0-8.735-2.931-11.212-7.246a3.522 3.522 0 0 1 0-3.508 14.585 14.585 0 0 1 6.98-6.412 1 1 0 0 1 1.302.551z"
-                      style="fill:#2aa9b2;fill-rule:evenodd" transform="translate(0 -1.586)" />
-                    <path data-name="Path 68" d="M14.589 11.825a3 3 0 1 1-2.29-2.2"
-                      style="fill:none;stroke:#2aa9b2;stroke-width:2px" transform="translate(0 -1.586)" />
-                  </svg>
-                </span>
-              </div>
-            </div>
+			<div class="input-wrapper">
+				<input type="password" class="input" placeholder="Repeat Password" />
 
-            <div class="col-xs-12">
-              <div class="input-group">
-                <input type="password" class="form-control input-content" placeholder="Password">
-                <span class="input-group-text">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="23.359" height="19.971" viewBox="0 0 23.359 19.971">
-                    <path data-name="Path 66" d="m5.68 3 16 16"
-                      style="stroke-linecap:round;fill:none;stroke:#2aa9b2;stroke-width:2px"
-                      transform="translate(0 -1.586)" />
-                    <path data-name="Path 67"
-                      d="M14.055 4.79a1 1 0 0 1 1.271-.619 14.359 14.359 0 0 1 7.566 6.629 3.523 3.523 0 0 1 .34 2.7 1 1 0 0 1-1.927-.534 1.522 1.522 0 0 0-.147-1.165 12.37 12.37 0 0 0-6.483-5.736 1 1 0 0 1-.62-1.275zm-5.3.151a1 1 0 0 1-.55 1.3 12.6 12.6 0 0 0-6 5.554 1.522 1.522 0 0 0 0 1.516c2.222 3.871 5.691 6.242 9.478 6.242a10.135 10.135 0 0 0 7.232-3.253 1 1 0 0 1 1.426 1.4 12.13 12.13 0 0 1-8.661 3.856c-4.686 0-8.735-2.931-11.212-7.246a3.522 3.522 0 0 1 0-3.508 14.585 14.585 0 0 1 6.98-6.412 1 1 0 0 1 1.302.551z"
-                      style="fill:#2aa9b2;fill-rule:evenodd" transform="translate(0 -1.586)" />
-                    <path data-name="Path 68" d="M14.589 11.825a3 3 0 1 1-2.29-2.2"
-                      style="fill:none;stroke:#2aa9b2;stroke-width:2px" transform="translate(0 -1.586)" />
-                  </svg>
-                </span>
-              </div>
-            </div>
+				<span class="hide-sign">
+					<svg xmlns="http://www.w3.org/2000/svg" width="23.359" height="19.971" viewBox="0 0 23.359 19.971">
+						<path data-name="Path 66" d="m5.68 3 16 16"
+							style="stroke-linecap:round;fill:none;stroke:#2aa9b2;stroke-width:2px" transform="translate(0 -1.586)" />
+						<path data-name="Path 67"
+							d="M14.055 4.79a1 1 0 0 1 1.271-.619 14.359 14.359 0 0 1 7.566 6.629 3.523 3.523 0 0 1 .34 2.7 1 1 0 0 1-1.927-.534 1.522 1.522 0 0 0-.147-1.165 12.37 12.37 0 0 0-6.483-5.736 1 1 0 0 1-.62-1.275zm-5.3.151a1 1 0 0 1-.55 1.3 12.6 12.6 0 0 0-6 5.554 1.522 1.522 0 0 0 0 1.516c2.222 3.871 5.691 6.242 9.478 6.242a10.135 10.135 0 0 0 7.232-3.253 1 1 0 0 1 1.426 1.4 12.13 12.13 0 0 1-8.661 3.856c-4.686 0-8.735-2.931-11.212-7.246a3.522 3.522 0 0 1 0-3.508 14.585 14.585 0 0 1 6.98-6.412 1 1 0 0 1 1.302.551z"
+							style="fill:#2aa9b2;fill-rule:evenodd" transform="translate(0 -1.586)" />
+						<path data-name="Path 68" d="M14.589 11.825a3 3 0 1 1-2.29-2.2"
+							style="fill:none;stroke:#2aa9b2;stroke-width:2px" transform="translate(0 -1.586)" />
+					</svg>
+				</span>
+			</div>
+			<div class="checkbox-wrapper">
+				<label class="main">Are you a Doctor?
+					<input type="checkbox" checked="checked">
+					<span class="geekmark" />
+				</label>
+			</div>
 
-            <div class="col-xs-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                  Are you a Doctor?
-                </label>
-              </div>
-            </div>
+			<div class="input-wrapper">
+				<input type="text" class="input" placeholder="My Company" />
+			</div>
+			<div class="checkbox-wrapper">
+				<label class="main">Agree Terms & Conditions
+					<input type="checkbox" checked="checked">
+					<span class="geekmark" />
+				</label>
+			</div>
+			<div class="button-wrapper">
+				<button class="login-button">Login</button>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		Copyright text
+	</div>
 
-            <div class="col-xs-12">
-              <div class="input-group">
-                <input type="company name" class="form-control input-content" placeholder="My Company">
-              </div>
-            </div>
-
-            <div class="col-xs-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                  Agree Terms & Conditions
-                </label>
-              </div>
-            </div>
-
-            <div class="d-grid gap-2">
-              <button class="btn btn-primary" type="button">Button</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row d-flex justify-content-center justify-content-md-start">
-        <div class="col-4 mt-2">
-          Copyright text
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
 </body>
